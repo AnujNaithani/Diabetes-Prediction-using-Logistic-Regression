@@ -109,5 +109,3 @@ if submitted:
         st.caption("Probability represents the model's confidence based on your inputs.")
     except Exception as e:
         st.error(f"Error:{e}")
-
-
