@@ -76,3 +76,12 @@ Justification:
 - **Recall**: ~98%
 - **ROC-AUC**: ~0.63
 - **Precision**: ~64%
+
+## Streamlit Web Application
+
+This project includes an interactive Streamlit web application for diabetes risk prediction.
+The app allows users to enter lifestyle, and health-related information and returns the predicted probability of diabetes along with model insights.
+
+### To Run the Application locally 
+- Train the model and save it using joblib
+- Run the app using `streamlit run app.py`
